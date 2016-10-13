@@ -1,0 +1,21 @@
+config:
+  title:                  Your Awesome Site
+  google_analytics:       UA-XXXXXXX-Y
+  google_webmaster_tools: xyz
+  google_fonts:
+    Lalezar: 400,700,400italic
+  activeClass: 'w3-green'
+structure:
+  home:
+    template: home
+    url:      /
+  contact:
+    template: contact
+    url:      contact
+  terms:
+    template: terms
+    url:      terms
+  404:
+    template: '404'
+    url:      '404'
+    sitemap:  false

@@ -1,0 +1,9 @@
+<nav class="w3-sidenav w3-collapse w3-white" style="width:200px;top:112px" id="mySidenav">
+    <div id="leftmenuinner" style="padding-top: 112px;">
+        <div id="leftmenuinnerinner" class="w3-light-grey">
+            <a href="javascript:void(0)" id="mySidenav_btnClose" class="w3-closenav w3-hide-large">{{t('nav.close')}}</a>
+            <a href="{{url('terms')}}" class="w3-hide-large {% if page.name === 'terms' %}{{config.activeClass}}{% endif %}">{{t('nav.terms')}}</a>
+            <a href="{{url('contact')}}" class="w3-hide-large {% if page.name === 'contact' %}{{config.activeClass}}{% endif %}">{{t('nav.contact')}}</a>
+        </div>
+    </div>
+</nav>

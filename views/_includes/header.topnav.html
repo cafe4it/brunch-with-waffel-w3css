@@ -1,0 +1,16 @@
+<div class="w3-card-2 w3-slim topnav" style="position: relative; top: 0px;" id="topnav">
+    <div style="overflow: auto">
+        <ul class="w3-navbar w3-left" style="overflow:hidden;height:44px">
+            <li>
+                <a href="javascript:void(0)" class="topnav-localicons w3-hide-large w3-left"  id="mySidenav_btnOpen" title="{{t('nav.toggle')}}">☰</a>
+            </li>
+            <li>
+                <a href="/" class="topnav-icons w3-left" title="{{t('nav.home')}}"><i class="fa fa-home"></i></a>
+            </li>
+        </ul>
+        <ul class="w3-navbar w3-right" style="overflow:hidden;height:44px">
+            <li><a href="{{url('terms')}}" class="w3-hide-small {% if page.name === 'terms' %}{{config.activeClass}}{% endif %}">{{t('nav.terms')}}</a></li>
+            <li><a href="{{url('contact')}}" class="w3-hide-small {% if page.name === 'contact' %}{{config.activeClass}}{% endif %}">{{t('nav.contact')}}</a></li>
+        </ul>
+    </div>
+</div>

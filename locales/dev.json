@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "toggle"  : "Toggle navigation",
+    "close": "Close &times;",
+    "home"    : "Home",
+    "contact"   : "Contact",
+    "terms": "Terms & Privacy Policy",
+    "logo" : {
+      "title": "yoursite",
+      "dotcom": ".com"
+    }
+  },
+  "home" : {
+    "title" : "Hello there!",
+    "text"  : "Just tryin' to be polite ^.^"
+  },
+  "notFound" : {
+    "title" : "Not Found",
+    "text"  : "Life's hard, sometimes - Go back to Homepage."
+  }
+}
